@@ -10,4 +10,6 @@ This is a basic implementation that allows one to add their own further system a
 Framework used to as an abstraction layer for graphics/image loading and update loop:
 MonoGame 3.6 (with DirectX)
 
+A compiled version is in the release section here (https://github.com/rbartsch/ECSAttempt/releases)
+
 To build you may need to install MonoGame 3.6  (http://www.monogame.net/downloads/) and Visual Studio 2017 or later. C# 7.0 is used (.NET Framework 4.7)
