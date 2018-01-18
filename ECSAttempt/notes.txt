@@ -1,0 +1,11 @@
+﻿NOTES
+
+Bugs:
+* Currently if you instantiate at the start before Load such as spritesystem then it loads twice, 
+once for instantiate and then when it gets to load part of state then again. 
+This can cause Content.Load such as images to load twice unnecessarily.
+
+ECS:
+* Check if duplicate components, warn and stop if entity has component already that is being added
+* Use an event system for notifying about adding/removal of components and what systems may or may not be interested in that entity as a result
+* Should not instantiate entities in GameState Initialize
